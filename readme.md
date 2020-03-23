@@ -10,8 +10,8 @@ This script monitors your SIP Trunk. It returns OK if registered and Error if no
 - Place the ts.asterisk.trunk.ovl on your PRTG Server in the C:\Program Files (x86)\PRTG Network Monitor\lookups folder
 - Add a SSH Script Sensor to your PBX in PRTG an select the monitor_trunk.sh
 - Parameters insert your SIP Trunk name shown in asterisk
-  You can get the Trunk name with this command: /usr/sbin/asterisk -rx "sip show peers"
-  It's enough to enter the part before /
+  -- You can get the Trunk name with this command: /usr/sbin/asterisk -rx "sip show peers"
+  -- It's enough to enter the part before /
 - After adding the sensor change the Value Lookup to ts-asterisk.trunk
 
 ## Credits
