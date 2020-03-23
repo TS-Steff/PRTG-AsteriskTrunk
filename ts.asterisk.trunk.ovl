@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <ValueLookup id="ts.asterisk.trunk" desiredValue="200" undefinedState="Warning">
+    <Lookups>
+      <SingleInt state="OK" value="200">
+        Online
+      </SingleInt>
+      <SingleInt state="Error" value="404">
+        Offline
+      </SingleInt>
+    </Lookups>
+  </ValueLookup>
