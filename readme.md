@@ -18,5 +18,5 @@ This script monitors your SIP Trunk. It returns OK if registered and Error if no
 * After adding the sensor change the Value Lookup to ts-asterisk.trunk
 
 ## Credits
-https://kb.paessler.com/en/topic/73689-ssh-script-for-asterisk
-https://ep.gnt.md/index.php/how-to-monitor-asterisk-trunks-with-prtg/
+- <https://kb.paessler.com/en/topic/73689-ssh-script-for-asterisk>
+- <https://ep.gnt.md/index.php/how-to-monitor-asterisk-trunks-with-prtg/>
